@@ -7,7 +7,7 @@ declare -a BASH_ARGV=()
 declare -A BASH_CMDS=()
 declare -- BASH_COMMAND="git add ."
 declare -a BASH_COMPLETION_VERSINFO=([0]="2" [1]="8")
-declare -a BASH_LINENO=([0]="4")
+declare -a BASH_LINENO=([0]="22")
 declare -ar BASH_REMATCH=()
 declare -a BASH_SOURCE=([0]="/home/ubuntu/.bashrc")
 declare -- BASH_SUBSHELL
@@ -15,7 +15,8 @@ declare -ar BASH_VERSINFO=([0]="4" [1]="4" [2]="20" [3]="1" [4]="release" [5]="x
 declare -- BASH_VERSION="4.4.20(1)-release"
 declare -x BROWSER="/usr/local/bin/paizacloud-open-browser"
 declare -- COLUMNS="80"
-declare -- COMP_WORDBREAKS
+declare -- COMP_WORDBREAKS=" 	
+\"'><=;|&(:"
 declare -a DIRSTACK=()
 declare -ir EUID="1000"
 declare -a FUNCNAME=([0]="tmux_save_session")
@@ -43,7 +44,7 @@ declare -x NODE_PATH="/home/ubuntu/.npm-packages/lib/node_modules:"
 declare -x NOKOGIRI_USE_SYSTEM_LIBRARIES="1"
 declare -x NPM_CONFIG_PREFIX="/home/ubuntu/.npm-packages"
 declare -- NPM_PACKAGES="/home/ubuntu/.npm-packages"
-declare -x OLDPWD
+declare -x OLDPWD="/home/ubuntu/thefirstrails"
 declare -- OPTERR="1"
 declare -i OPTIND="1"
 declare -- OSTYPE="linux-gnu"
